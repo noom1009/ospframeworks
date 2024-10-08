@@ -1,13 +1,14 @@
 ใช้งาน package
 เมื่อทุกอย่างเสร็จสิ้น คุณสามารถใช้งาน package ของคุณในโปรเจ็กต์ Go อื่น ๆ ได้โดยการนำเข้า:
 
-go
-Copy code
+```
 import "github.com/yourusername/mypackage"
 
 func main() {
     fmt.Println(mypackage.HelloWorld())
 }
+
+```
 ตรวจสอบเอกสารและตัวอย่าง
 คุณสามารถตรวจสอบเอกสารของ package และดูตัวอย่างการใช้งานได้จาก pkg.go.dev หลังจากที่ทุกอย่างพร้อมแล้ว
 
